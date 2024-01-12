@@ -1,0 +1,116 @@
+body {
+  background-color: #efe7dd;
+  user-select: none;
+}
+
+.navbar {
+  background-color: #764b36;
+}
+
+.navbar-brand {
+  width: 150px;
+}
+
+#cabecalho .nav .nav-link.active {
+  color: #c88a36;
+  background-color: #efe7dd;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: white;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: #efe7dd;
+}
+
+.navbar-toggler-icon {
+  color: #c88a36;
+}
+
+.section-title {
+  font-family: "Pacifico", cursive;
+}
+
+#eventos {
+  background-color: #764b36;
+  color: #efe7dd;
+}
+
+#fale-conosco {
+  background-color: #764b36;
+  color: #efe7dd;
+}
+
+#brand-img {
+  width: 25vw;
+  object-fit: cover;
+}
+
+.text-colored,
+.nav-cardapio .nav-link:hover {
+  color: #c88a36;
+}
+
+.text-colored-light {
+  color: #f8ce94;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: #c88a36;
+  color: white;
+}
+
+.social-links {
+  width: 9.3rem;
+}
+
+.social-links li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links li a:hover {
+  transform: scale(1.09);
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+#fale-conosco form button {
+  color: #c88a36;
+  background-color: #efe7dd;
+  border: none;
+  border-radius: 15px;
+  padding: 0.6rem 2rem;
+  transition: 0.2s;
+}
+
+#fale-conosco form button:hover {
+  transform: scale(1.03);
+}
+
+input:focus {
+  outline: 2px #c88a36;
+  border: #c88a36;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
